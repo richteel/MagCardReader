@@ -17,4 +17,6 @@ Code to allow an Arduino to read from more than one magnetic card reader. The co
 
 In addition to the code, there are some photos and Inkscape files for laser cutting a board to mount two Tokin MCS-131P-3 magnetic card readers and an [Adafruit Perma-Proto Half-sized Breadboard PCB](https://www.adafruit.com/product/1609).
 
+When selecting the data pin, keep in mind which pins may be used as interrupts. The Uno, Nano, Mini, & other 328-based boards have only two pins available with interrupts. Other boards have more but many have limited pins available. Check the Arduino reference page at [https://www.arduino.cc/reference/en/language/functions/external-interrupts/attachinterrupt/](https://www.arduino.cc/reference/en/language/functions/external-interrupts/attachinterrupt/) for details.
+
 For more information regarding this project, please visit the two part blog post listing in the references above.
